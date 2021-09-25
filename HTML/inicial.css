@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner-principal{
+    display: flex;
+    margin: 10px;
+    background-color: rgba(104, 56, 150, 0.904);
+}
+.menu{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    margin: 5px;
+}
+
+.logo-nome{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    color: black;
+}
