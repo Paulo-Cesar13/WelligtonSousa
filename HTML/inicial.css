@@ -5,19 +5,47 @@
 
 .conteiner-principal{
     display: flex;
+    flex-direction: column;
     margin: 10px;
     background-color: rgba(104, 56, 150, 0.904);
 }
 .menu{
-    width: 80%;
-    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
     background-color: white;
     margin: 5px;
 }
 
 .logo-nome{
+    flex: 1;
     width: 100px;
-    height: 100px;
+    margin: 5px;
     background-color: violet;
     color: black;
+}
+
+.menu-navegar{
+    flex: 1;
+    margin: 5px;
+    background-color: chartreuse;
+}
+
+.logim{
+    flex: 1;
+    margin: 5px;
+    background-color: darkgoldenrod;
+}
+
+.conteiner-patrocinio{
+    width: 80%;
+    background-color: rgb(122, 235, 159);
+}
+
+.conteiner-contatos{
+    background-color: red;
+}
+
+.conteiner-dev{
+    background-color: yellow;
 }
